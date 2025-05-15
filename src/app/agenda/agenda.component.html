@@ -1,0 +1,54 @@
+<div class="main-container">
+    <h2>Nieuwe afspraak maken</h2>
+    <section class="afspraken-overzicht">
+            <h2>Afspraken overzicht</h2>        
+        <div class="afspraken-overzicht-content">
+            <p>Hieronder vind je een overzicht van je afspraken.</p>
+            <p>Je kan deze afspraken bekijken, wijzigen of annuleren.</p>
+        </div>
+        
+        <div class="afspraken-list">
+            <div class="afspraken-list-header">
+                <div class="afspraak-header-part">Dag</div>
+                <div class="afspraak-header-part">Datum</div>
+                <div class="afspraak-header-part">Tijd</div>
+                <div class="afspraak-header-part">Soort</div>
+                <div class="afspraak-header-part">Waar</div>
+                <div class="afspraak-header-part">Afdeling</div>
+                <div class="afspraak-header-part">Bij</div>
+
+            </div>
+            <div class="afspraken">
+                <div class="afspraak">
+                    <div class="afspraak-part">Maandag</div>
+                    <div class="afspraak-part">01/01/2026</div>
+                    <div class="afspraak-part">10:00</div>
+                    <div class="afspraak-part">Consult</div>
+                    <div class="afspraak-part">Ziekenhuis</div>
+                    <div class="afspraak-part">Cardiologie</div>
+                    <div class="afspraak-part">Dr. Jansen</div>
+                </div>
+                <div class="afspraak">
+                    <div class="afspraak-part">Dinsdag</div>
+                    <div class="afspraak-part">02/01/2026</div>
+                    <div class="afspraak-part">11:00</div>
+                    <div class="afspraak-part">Controle</div>
+                    <div class="afspraak-part">Ziekenhuis</div>
+                    <div class="afspraak-part">Dermatologie</div>
+                    <div class="afspraak-part">Dr. Peeters</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="afsrpaak-maken">
+        <h2> Een afspraak maken</h2>
+        <div class="afspraak-type">
+            <p>Maak een keuze voor de afspraak. Klik dan op 'Volgende'.</p>
+            <div class="afspraak-type-option">
+                <input type="radio" id="consult" name="afspraak-type" value="consult" />
+                <label class="afspraak-optie" for="consult">Consult</label> <br>
+                <a routerLink="/afspraak"><button class="afspraak-button" >Volgende</button></a>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,99 @@
+    .main-container {
+    padding: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    }
+
+    .welcome-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    }
+
+    .welcome-card h2 {
+    font-size: 1.6rem;
+    color: #00796b;
+    margin-bottom: 15px;
+    }
+
+    .welcome-card p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    }
+
+    .welcome-card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    }
+
+    .welcome-card li {
+    margin-bottom: 8px;
+    }
+
+    .link {
+    color: #00796b;
+    text-decoration: underline;
+    }
+
+    .actions-container {
+    text-align: center;
+    margin-bottom: 50px;
+    }
+
+    .appointment-button {
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    }
+
+    .appointment-button:hover {
+    background-color: #388e3c;
+    }
+
+    /* Dashboard */
+    .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    }
+
+    .dashboard-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    max-width: 180px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .dashboard-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    }
+
+    .dashboard-item span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    }

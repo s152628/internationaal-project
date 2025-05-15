@@ -1,0 +1,86 @@
+    .main-container {
+    padding: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    }
+.main-container h2 {
+    font-size: 1.6rem;
+    color: #00796b;
+    margin-bottom: 15px;
+}
+
+ .afspraken-overzicht {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    }
+.afspraken-overzicht h2 {
+    font-size: 1.6rem;
+    color: #00796b;
+    margin-bottom: 15px;
+    }
+.afspraken-overzicht p{
+    font-size: 1.05rem;
+    line-height: 1.6;
+    }
+.afsrpaak-maken {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+.afsrpaak-maken h2 {
+    font-size: 1.6rem;
+    color: #00796b;
+    margin-bottom: 15px;
+}
+.afsrpaak-maken p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+.AI-question-box {
+    background-color: #00796b;
+}
+.afspraak-button{
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.afspraak-button:hover{
+    background-color: #45a049;
+}
+.afspraken-list-header
+{
+    display: grid ;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.afspraak-header-part{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.afspraak {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.afspraak-optie{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}

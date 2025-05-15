@@ -1,0 +1,72 @@
+.main-container {
+    padding: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Appointment Details Section */
+.afspraak-details {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+.afspraak-details h2 {
+    font-size: 1.6rem;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.afspraak-details .locatie,
+.afspraak-details .kalender,
+.afspraak-details .arts {
+    margin-bottom: 20px;
+}
+
+.afspraak-details label {
+    font-size: 1.05rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.afspraak-details select,
+.afspraak-details input[type="date"],
+.afspraak-details input[type="time"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.afspraak-details select:focus,
+.afspraak-details input[type="date"]:focus,
+.afspraak-details input[type="time"]:focus {
+    outline: none;
+    border-color: #00796b;
+    background-color: #fff;
+}
+.afspraak-details .button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.afspraak-button {
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}

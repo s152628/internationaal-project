@@ -1,0 +1,29 @@
+<div class="main-container">
+    <Section class="afspraak-details">
+        <h2>Kies hier de details voor uw afspraak bij consultatie</h2>
+        <div class="locatie">
+            <label for="Ziekenhuis">Kies een locatie:</label> <br>
+            <select class="ziekenhuis-selectie" name="ziekenhuizen">
+            <option value="Middelheim">Middelheim</option>
+            <option value="Cadix">Cadix</option>
+            <option value="Sint-Augustinus">Sint-Augustinus</option>
+            <option value="Stuivenberg">Stuivenberg</option>
+            </select>
+        </div>
+        <div class="kalender">
+            <label for="Datum">Kies een datum en een tijdstip:</label> <br>
+            <input type="date" id="datum" name="datum" />
+            <input type="time" id="tijd" name="tijd" />
+        </div>
+        <div class="arts">
+            <label for="artsen">Kies een arts:</label> <br>
+            <select class="arts-selectie" name="artsen">
+            <option value="Dr. Jansen">Dr. Jansen J.</option>
+            <option value="Dr. Peeters">Dr. Peeters P.</option>
+            </select>
+        </div>
+        <div class="button">
+            <a routerLink="/afspraak-guide"><button class="afspraak-button">Maak afspraak</button></a>
+        </div>
+    </Section>
+</div>
