@@ -1,0 +1,21 @@
+.language-selector {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1000;
+}
+
+.language-selector select {
+    font-size: 1rem;
+    color: #333;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

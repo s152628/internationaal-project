@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { LanguageSelectionComponent } from "./language-selection/language-selection.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,NavbarComponent],
+  imports: [RouterOutlet, NavbarComponent, LanguageSelectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
