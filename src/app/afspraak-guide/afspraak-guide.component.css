@@ -135,3 +135,14 @@
     font-size: 1.05rem;
     line-height: 1.6;
 }
+.preregistration-button
+{
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
